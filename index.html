@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emmanuel Maniraguha | ICT & NIT Portfolio</title>
+  <meta name="description" content="Portfolio of Emmanuel Maniraguha, an ICT and NIT professional focused on networking, cybersecurity, IoT, software, and technology education.">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #172033;
+      --muted: #61708a;
+      --primary: #155eef;
+      --dark: #0b1220;
+      --border: #e5eaf2;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(1100px, 92%); margin: auto; }
+    header {
+      background: linear-gradient(135deg, #0b1220, #155eef);
+      color: white;
+      padding: 22px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav { display: flex; justify-content: space-between; align-items: center; gap: 20px; }
+    .logo { font-size: 1.25rem; font-weight: 800; }
+    nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a { color: white; opacity: .92; font-size: .95rem; }
+    nav a:hover { opacity: 1; text-decoration: underline; }
+    .hero {
+      background: linear-gradient(135deg, #0b1220, #155eef);
+      color: white;
+      padding: 95px 0 85px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 50px;
+      align-items: center;
+    }
+    .hero h1 { font-size: clamp(2.4rem, 6vw, 4.5rem); line-height: 1.05; margin-bottom: 20px; }
+    .hero h2 { font-size: 1.35rem; font-weight: 500; margin-bottom: 18px; }
+    .hero p { max-width: 720px; color: #e7edff; }
+    .buttons { margin-top: 28px; display: flex; flex-wrap: wrap; gap: 12px; }
+    .btn {
+      display: inline-block; padding: 12px 20px; border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.35); font-weight: 700;
+    }
+    .btn.primary { background: white; color: #155eef; border-color: white; }
+    .profile-card {
+      background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.2);
+      padding: 30px; border-radius: 18px; backdrop-filter: blur(8px);
+    }
+    .profile-card .initials {
+      width: 120px; height: 120px; border-radius: 50%; margin: 0 auto 20px;
+      display: grid; place-items: center; background: white; color: #155eef;
+      font-size: 2.3rem; font-weight: 800;
+    }
+    section { padding: 75px 0; }
+    section:nth-child(even) { background: #eef3fa; }
+    .section-title { text-align: center; margin-bottom: 40px; }
+    .section-title h2 { font-size: 2rem; margin-bottom: 8px; }
+    .section-title p { color: var(--muted); }
+    .about {
+      display: grid; grid-template-columns: 1.3fr 1fr; gap: 35px;
+    }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 14px; padding: 28px; box-shadow: 0 8px 25px rgba(20,40,80,.05);
+    }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .tag {
+      background: #e8f0ff; color: #174ea6; padding: 8px 12px;
+      border-radius: 999px; font-size: .9rem; font-weight: 700;
+    }
+    .grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+    }
+    .project h3 { margin-bottom: 10px; }
+    .project p { color: var(--muted); }
+    .project ul { margin: 12px 0 0 20px; color: var(--muted); }
+    .timeline { max-width: 850px; margin: auto; }
+    .timeline-item {
+      border-left: 3px solid var(--primary); padding: 0 0 25px 24px; margin-bottom: 15px;
+    }
+    .timeline-item h3 { margin-bottom: 4px; }
+    .timeline-item span { color: var(--primary); font-weight: 700; }
+    .contact {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 20px;
+    }
+    footer { background: var(--dark); color: #dce5f7; padding: 30px 0; text-align: center; }
+    footer a { color: white; text-decoration: underline; }
+    @media (max-width: 800px) {
+      .hero-grid, .about, .contact { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      nav { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Emmanuel Maniraguha</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <p style="font-weight:700; margin-bottom:10px;">ICT • NIT • Networking • Cybersecurity • IoT</p>
+        <h1>Emmanuel<br>Maniraguha</h1>
+        <h2>ICT & Network Information Technology Professional</h2>
+        <p>
+          I am an ICT and NIT professional and technology educator with practical interests in
+          computer networking, cybersecurity, IoT, software and web technologies, quality assurance,
+          fiber-optic deployment, and technical training.
+        </p>
+        <div class="buttons">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn" href="https://github.com/maniraguhaemmanuel" target="_blank">GitHub</a>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="initials">EM</div>
+        <h3 style="text-align:center; margin-bottom:10px;">Technology & Innovation</h3>
+        <p style="text-align:center; color:#e7edff;">
+          Building practical solutions and helping learners understand technology through
+          hands-on projects and real-world applications.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="section-title">
+        <h2>About Me</h2>
+        <p>A short introduction</p>
+      </div>
+      <div class="about">
+        <div class="card">
+          <p>
+            My name is <strong>Emmanuel Maniraguha</strong>. I work and learn in the field of
+            Information and Communication Technology, with a focus on Network Information
+            Technology. My interests include networking, cybersecurity, Internet of Things,
+            Git/GitHub and version control, quality assurance, Windows Server, zero-client
+            technology, fiber-optic networks, and practical technology education.
+          </p>
+          <br>
+          <p>
+            I enjoy turning technical concepts into practical solutions, experimenting with
+            embedded and IoT systems, and developing learning resources and assessments that
+            make ICT concepts clear and useful.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Professional Focus</h3>
+          <ul style="margin:15px 0 0 20px;">
+            <li>Network infrastructure and administration</li>
+            <li>Cybersecurity fundamentals</li>
+            <li>IoT and embedded systems</li>
+            <li>Technical teaching and assessment</li>
+            <li>Git, GitHub and version control</li>
+            <li>Web and software projects</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-title">
+        <h2>Skills</h2>
+        <p>Technical areas and tools</p>
+      </div>
+      <div class="card">
+        <div class="skills">
+          <span class="tag">Computer Networking</span>
+          <span class="tag">Cisco Networking</span>
+          <span class="tag">VLAN / VTP / STP</span>
+          <span class="tag">RIPv2</span>
+          <span class="tag">VLSM / CIDR</span>
+          <span class="tag">IPv4 / IPv6</span>
+          <span class="tag">Cybersecurity</span>
+          <span class="tag">CIA Triad</span>
+          <span class="tag">IoT</span>
+          <span class="tag">Arduino</span>
+          <span class="tag">ESP32</span>
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">HTML / CSS</span>
+          <span class="tag">Quality Assurance</span>
+          <span class="tag">Fiber Optics</span>
+          <span class="tag">Windows Server</span>
+          <span class="tag">Zero Client Technology</span>
+          <span class="tag">Technical Training</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <div class="section-title">
+        <h2>Projects</h2>
+        <p>Selected practical and academic projects</p>
+      </div>
+      <div class="grid">
+        <div class="card project">
+          <h3>IoT-Based Smart Industrial Intrusion Detection System</h3>
+          <p>
+            A practical IoT security concept designed for industrial environments, using
+            sensors, an ESP32/embedded platform, indicators, and an alarm mechanism.
+          </p>
+          <ul>
+            <li>ESP32 / embedded systems</li>
+            <li>Motion and distance sensing</li>
+            <li>LED and buzzer alerts</li>
+            <li>Web-based monitoring concept</li>
+          </ul>
+        </div>
+
+        <div class="card project">
+          <h3>Network Configuration & Simulation</h3>
+          <p>
+            Practical networking exercises covering VLANs, inter-VLAN routing, STP,
+            VTP, routing, addressing, and network troubleshooting.
+          </p>
+          <ul>
+            <li>Cisco Packet Tracer</li>
+            <li>VLAN and trunk configuration</li>
+            <li>VLSM and IP addressing</li>
+            <li>RIPv2 and routing concepts</li>
+          </ul>
+        </div>
+
+        <div class="card project">
+          <h3>Git & GitHub Portfolio</h3>
+          <p>
+            A version-controlled portfolio project demonstrating repository management,
+            commits, branches, remote repositories, and GitHub collaboration workflows.
+          </p>
+          <ul>
+            <li>Git commands</li>
+            <li>GitHub repositories</li>
+            <li>Version control</li>
+            <li>README documentation</li>
+          </ul>
+        </div>
+
+        <div class="card project">
+          <h3>Fiber Optic Network Planning</h3>
+          <p>
+            Academic and practical work related to planning and designing fiber-optic
+            networks and understanding deployment requirements.
+          </p>
+          <ul>
+            <li>Network planning</li>
+            <li>Fiber-optic components</li>
+            <li>Network design</li>
+            <li>Deployment concepts</li>
+          </ul>
+        </div>
+
+        <div class="card project">
+          <h3>Cybersecurity Learning Resources</h3>
+          <p>
+            Development of technical learning materials and assessments covering cybersecurity
+            fundamentals, threats, attacks, CIA triad, and security practices.
+          </p>
+          <ul>
+            <li>Cybersecurity fundamentals</li>
+            <li>Threat awareness</li>
+            <li>Security concepts</li>
+            <li>Assessment design</li>
+          </ul>
+        </div>
+
+        <div class="card project">
+          <h3>ICT Training & Quality Assurance</h3>
+          <p>
+            Preparation of ICT learning activities, practical exercises, assessments,
+            marking guides, and quality-assurance learning materials.
+          </p>
+          <ul>
+            <li>Technical training</li>
+            <li>Assessment development</li>
+            <li>Functional requirements</li>
+            <li>Non-functional requirements</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <div class="section-title">
+        <h2>Education & Professional Development</h2>
+        <p>Continuous learning in technology</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3>Network Information Technology (NIT)</h3>
+          <span>Technical & Practical Focus</span>
+          <p>
+            Networking, infrastructure, cybersecurity, IoT, server technologies, fiber optics,
+            zero-client technology, and practical ICT systems.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>ICT Technical Training</h3>
+          <span>Teaching & Assessment</span>
+          <p>
+            Development of session plans, learning resources, practical activities, assessments,
+            and marking guides for ICT and NIT learners.
+          </p>
+        </div>
+        <div class="timeline-item">
+          <h3>Continuous Technology Practice</h3>
+          <span>Git • IoT • Networking • Cybersecurity</span>
+          <p>
+            Ongoing hands-on learning through projects, network simulations, embedded systems,
+            version control, and cybersecurity exercises.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact & Links</h2>
+        <p>Connect with me online</p>
+      </div>
+      <div class="contact">
+        <div class="card">
+          <h3>GitHub</h3>
+          <p style="margin:8px 0 15px; color:var(--muted);">
+            View my repositories and technology projects.
+          </p>
+          <a style="color:var(--primary); font-weight:700;" href="https://github.com/maniraguhaemmanuel" target="_blank">
+            github.com/maniraguhaemmanuel
+          </a>
+        </div>
+        <div class="card">
+          <h3>Portfolio Repository</h3>
+          <p style="margin:8px 0 15px; color:var(--muted);">
+            Source code and documentation for this portfolio.
+          </p>
+          <a style="color:var(--primary); font-weight:700;" href="https://github.com/maniraguhaemmanuel/my_projec" target="_blank">
+            GitHub Portfolio Repository
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Emmanuel Maniraguha. All rights reserved.</p>
+    <p style="margin-top:5px;">Built with HTML and CSS • Hosted through GitHub Pages</p>
+  </div>
+</footer>
+
+</body>
+</html>

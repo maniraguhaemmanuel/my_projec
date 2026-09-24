@@ -1,0 +1,11 @@
+Educational Portfolio License
+
+Copyright (c) 2026 Emmanuel Maniraguha
+
+This project is provided primarily for educational and portfolio purposes.
+
+Permission is granted to view, study, and use the project for learning purposes, provided that appropriate attribution is given to Emmanuel Maniraguha.
+
+You may modify the source code for your own educational projects. Redistribution of substantial portions of this project as your own work is not permitted without attribution or permission from the author.
+
+The project is provided "as is", without warranty of any kind.
