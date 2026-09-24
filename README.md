@@ -112,8 +112,6 @@ my_projec/
 ├── index.html
 ├── README.md
 ├── license.txt
-└── assets/
-    └── (optional images and other resources)
 ```
 
 ## Technologies Used
