@@ -87,6 +87,23 @@
     .grid {
       display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
     }
+    .cert-list {
+      display: grid; grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+    .cert-item {
+      background: linear-gradient(180deg, #ffffff, #f3f7ff);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 20px;
+      min-height: 180px;
+    }
+    .cert-item h3 { margin-bottom: 10px; }
+    .cert-item .meta {
+      display: inline-block; font-weight: 700; color: var(--primary);
+      margin-bottom: 12px;
+    }
+    .cert-item ul { margin-left: 18px; color: var(--muted); }
     .project h3 { margin-bottom: 10px; }
     .project p { color: var(--muted); }
     .project ul { margin: 12px 0 0 20px; color: var(--muted); }
@@ -103,7 +120,7 @@
     footer a { color: white; text-decoration: underline; }
     @media (max-width: 800px) {
       .hero-grid, .about, .contact { grid-template-columns: 1fr; }
-      .grid { grid-template-columns: 1fr; }
+      .grid, .cert-list { grid-template-columns: 1fr; }
       nav { flex-direction: column; align-items: flex-start; }
     }
   </style>
@@ -117,6 +134,7 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -218,6 +236,56 @@
           <span class="tag">Zero Client Technology</span>
           <span class="tag">Technical Training</span>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications">
+    <div class="container">
+      <div class="section-title">
+        <h2>Certifications & Training</h2>
+        <p>Courses and professional learning in progress</p>
+      </div>
+      <div class="cert-list">
+        <article class="cert-item">
+          <h3>Computer Networking Fundamentals</h3>
+          <span class="meta">Networking • Infrastructure</span>
+          <ul>
+            <li>Protocols, addressing, and switching fundamentals</li>
+            <li>LAN/WAN concepts and practical troubleshooting</li>
+            <li>Hands-on network design principles</li>
+          </ul>
+        </article>
+
+        <article class="cert-item">
+          <h3>Cybersecurity Essentials</h3>
+          <span class="meta">Security • Risk Awareness</span>
+          <ul>
+            <li>Threats, vulnerability awareness, and attack surfaces</li>
+            <li>Security controls and safe technical practices</li>
+            <li>Confidentiality, integrity, and availability principles</li>
+          </ul>
+        </article>
+
+        <article class="cert-item">
+          <h3>IoT & Embedded Systems</h3>
+          <span class="meta">Hardware • Automation</span>
+          <ul>
+            <li>ESP32 and microcontroller-based experimentation</li>
+            <li>Sensor integration and automation concepts</li>
+            <li>Real-world smart environment use cases</li>
+          </ul>
+        </article>
+
+        <article class="cert-item">
+          <h3>Git & GitHub Collaboration</h3>
+          <span class="meta">Version Control • Workflow</span>
+          <ul>
+            <li>Branching, rebasing, merge flow, and pull requests</li>
+            <li>Repository organization and collaborative coding</li>
+            <li>Documentation and task tracking practices</li>
+          </ul>
+        </article>
       </div>
     </div>
   </section>
