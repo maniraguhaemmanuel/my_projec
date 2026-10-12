@@ -133,6 +133,7 @@ See the full license information in [`license.txt`](license.txt).
 ## Contributors
 
 - **Emmanuel Maniraguha** — Project author and contributor
+- **Enock Ndagijimana** -- Project Collaborator 
 
 ## Project Link
 
