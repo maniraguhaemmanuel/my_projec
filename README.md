@@ -6,6 +6,7 @@ A personal portfolio website for **Emmanuel Maniraguha**, an ICT and Network Inf
 
 - **About Me Section:** Introduction, professional focus, and areas of interest.
 - **Skills Section:** Networking, cybersecurity, IoT, Git/GitHub, HTML/CSS, fiber optics, servers, and technical training.
+- **Certifications & Training Section:** Professional learning highlights in networking, cybersecurity, IoT, and Git/GitHub collaboration.
 - **Projects Section:** Selected academic, practical, and technology projects.
 - **Education & Professional Development:** Technical learning and continuous professional development.
 - **Contact & Links:** GitHub profile and project repository links.
@@ -38,7 +39,10 @@ The portfolio highlights skills and knowledge in:
 - Zero Client Technology
 - Technical Training and Assessment
 
-### 3. Projects
+### 3. Certifications & Training
+This section presents ongoing and foundational learning in networking, cybersecurity, IoT, and collaborative Git/GitHub workflows.
+
+### 4. Projects
 The portfolio currently presents projects and practical work related to:
 
 1. **IoT-Based Smart Industrial Intrusion Detection System**
@@ -48,10 +52,10 @@ The portfolio currently presents projects and practical work related to:
 5. **Cybersecurity Learning Resources**
 6. **ICT Training & Quality Assurance**
 
-### 4. Education & Professional Development
+### 5. Education & Professional Development
 This section presents my technical and professional development in Network Information Technology, ICT training, networking, cybersecurity, IoT, version control, and other technology areas.
 
-### 5. Contact & Project Links
+### 6. Contact & Project Links
 The website provides links to my GitHub profile and the GitHub repository containing this portfolio.
 
 ## How to Run This Project
